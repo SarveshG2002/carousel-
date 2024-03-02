@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.CirclePanel {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.backimage {
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    /* background-color: rgb(255, 1, 1);
+     */
+    background-image: url('flowerBack.jpg');
+    /* Set the URL of your background image */
+    background-size: cover;
+    /* Cover the entire div with the background image */
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.innerCircle{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    padding: 3%;
+}
+.shirtCircle{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3%;
+}
